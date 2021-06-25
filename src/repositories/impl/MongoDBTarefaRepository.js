@@ -27,7 +27,7 @@ class MongoDBTarefaRepository {
   }
 
   static async filtrarPorUsuarioPeriodoEStatus({
-    peridoDe,
+    periodoDe,
     periodoAte,
     status,
     idUsuario,

@@ -26,7 +26,7 @@ module.exports = (req, res, next) => {
   };
 
   logger.info(
-    "requisição recebida",
+    'requisição recebida',
     `url=${req.url}, metodo_http=${req.method}`
   );
 
@@ -34,3 +34,4 @@ module.exports = (req, res, next) => {
   req.logger = logger;
   next();
 };
+//

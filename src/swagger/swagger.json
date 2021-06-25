@@ -2,7 +2,7 @@
   "swagger": "2.0",
   "info": {
     "version": "1.0.0",
-    "title": "Devaria API NodeJS"
+    "title": "Devaria API NodeJS."
   },
   "basePath": "/api",
   "consumes": ["application/json"],

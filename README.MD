@@ -9,3 +9,5 @@ API para gestão dee tarefas do projeto Devaria 2021
 1. Fazer uma cópia do arquivo `.env.example` e chamar de `.env`
 1. Atualizar as váriaveis de ambiente no arquivo `.env`
 1. Executar o comando `npm start` para rodar o servidor
+
+##
