@@ -16,4 +16,3 @@ class HttpController {
 }
 
 module.exports = HttpController;
-//

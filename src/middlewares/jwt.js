@@ -20,10 +20,11 @@ module.exports = (req, res, next) => {
     return (
       // os parenteses definem a prioridade de verificação das condições
       // Verifica se a tora da requisição é identica
-      (rota.url === req.url ||
+      ((rota.url === req.url ||
         // ou a rota pública contém um '*' e a rota da requisição possuí como parte da url a rota pública
         (rotaPublicaContemWidcard && urlRequisicaoContemParteRotaPublica)) &&
-      rota.method === req.method.toUpperCase()
+        rota.metodo === req.method.toUpperCase()) ||
+      req.method.toUpperCase() === 'OPTIONS'
     );
   });
 
@@ -81,4 +82,3 @@ module.exports = (req, res, next) => {
     next();
   });
 };
-//

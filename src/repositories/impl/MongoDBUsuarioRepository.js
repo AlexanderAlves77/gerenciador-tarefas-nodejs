@@ -37,4 +37,3 @@ class MongoDBUsuarioRepository {
 }
 
 module.exports = UsuarioRepository(MongoDBUsuarioRepository);
-//

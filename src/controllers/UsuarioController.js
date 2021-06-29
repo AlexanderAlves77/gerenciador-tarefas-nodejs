@@ -36,4 +36,3 @@ class UsuarioController extends HttpController {
 }
 
 module.exports = UsuarioController;
-//

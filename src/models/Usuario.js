@@ -28,4 +28,3 @@ UsuarioSchema.pre('save', function (next) {
 // Faz o link do schema com a collection (leia tabela) 'usuarios'
 const Usuario = mongoose.model('usuarios', UsuarioSchema);
 module.exports = Usuario;
-//
